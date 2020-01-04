@@ -4,8 +4,8 @@
   "description": "",
   "private": true,
   "scripts": {
-    "dev": "webpack --config webpack.config.js",
-    "start": "webpack-dev-server --open"
+    "dev": "webpack-dev-server --open --env.NODE_ENV=dev",
+    "build": "webpack --env.NODE_ENV=prod"
   },
   "keywords": [],
   "author": "",
