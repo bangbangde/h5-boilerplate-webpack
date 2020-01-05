@@ -1,1 +1,2 @@
-console.log('hello world')
+import about from './about.js';
+console.log('hello world.', about)
